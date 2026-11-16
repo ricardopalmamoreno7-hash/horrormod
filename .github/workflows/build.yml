@@ -16,7 +16,7 @@ jobs:
       - uses: gradle/actions/setup-gradle@v3
         with:
           gradle-version: 8.1.1
-      - run: gradle build --no-daemon
+      - run: gradle build --no-daemon --stacktrace
       - uses: actions/upload-artifact@v4
         with:
           name: horrormod-jar
