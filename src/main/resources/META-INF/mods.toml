@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="horrormod"
+version="1.0.0"
+displayName="Horror Mod"
+description='''
+Un mod de terror: The Stalker, un monstruo alto de brazos larguisimos
+que te acecha en la oscuridad y se queda inmovil cuando lo miras.
+'''
+
+[[dependencies.horrormod]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.horrormod]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
